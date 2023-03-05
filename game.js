@@ -28,6 +28,7 @@ class Nazi {
 document.addEventListener("keydown", jump)
 
 function jump() {
+    if(yPos > 50)
         yPos -= 80;
 }
 
